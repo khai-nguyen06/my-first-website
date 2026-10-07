@@ -1,0 +1,69 @@
+/* ==========================================================================
+   1. RESET VÀ CẤU HÌNH CƠ BẢN
+   ========================================================================== */
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #333333;
+}
+
+/* ==========================================================================
+   2. THANH ĐIỀU HƯỚNG (NAV)
+   ========================================================================== */
+nav {
+    margin-bottom: 30px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+/* ==========================================================================
+   3. BỐ CỤC 3 CỘT BẰNG INLINE-BLOCK (SECTION & BOX)
+   ========================================================================== */
+section {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.box {
+    display: inline-block;
+    width: 28%; /* Đã tối ưu % để tránh cộng dồn margin làm vỡ hàng */
+    padding: 20px;
+    background-color: lightblue;
+    margin: 10px;
+    vertical-align: top; /* Căn lề trên cùng cho các cột bằng nhau */
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ==========================================================================
+   4. CHÂN TRANG (FOOTER)
+   ========================================================================== */
+footer {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 15px;
+    color: #666666;
+    font-size: 0.9rem;
+}

@@ -3,43 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giới thiệu về Khải Nguyễn</title>
+    <title>Bố cục với display</title>
+    <!-- Liên kết External CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- TIÊU ĐỀ CHÍNH & ẢNH ĐẠI DIỆN -->
-    <h1>Khải Nguyễn</h1>
-    <img src="images/avatar.jpg" alt="Ảnh chân dung của Khải Nguyễn" width="200">
+    <h1>Bố cục trang web với display</h1>
 
-    <!-- PHẦN 1: GIỚI THIỆU BẢN THÂN -->
-    <h2>Giới thiệu bản thân</h2>
-    <p>
-        Xin chào! Tôi là một <strong>lập trình viên web</strong> đang trong quá trình tích lũy kỹ năng và kiến thức về HTML, CSS và phát triển Frontend. 
-        Tôi rất yêu thích việc sáng tạo ra các sản phẩm web <em>đẹp mắt</em>, tối ưu và mang lại giá trị thiết thực cho người dùng.
-    </p>
+    <!-- THANH ĐIỀU HƯỚNG -->
+    <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#">Giới thiệu</a>
+        <a href="#">Dịch vụ</a>
+        <a href="#">Liên hệ</a>
+    </nav>
 
-    <!-- PHẦN 2: SỞ THÍCH VÀ KỸ NĂNG -->
-    <h2>Sở thích & Kỹ năng</h2>
-    <ul>
-        <li>Lập trình giao diện Web (HTML5, CSS3, JavaScript)</li>
-        <li>Sử dụng thành thạo VS Code, Git và GitHub</li>
-        <li>Đọc sách công nghệ và khám phá các công cụ hỗ trợ lập trình</li>
-        <li>Chơi cờ vua và tham gia các hoạt động thể thao ngoài trời</li>
-    </ul>
+    <!-- KHỐI NỘI DUNG 3 CỘT -->
+    <section>
+        <div class="box">
+            <h3>Cột 1</h3>
+            <p>Nội dung cột thứ nhất sử dụng display inline-block.</p>
+        </div>
+        <div class="box">
+            <h3>Cột 2</h3>
+            <p>Nội dung cột thứ hai xếp hàng ngang linh hoạt.</p>
+        </div>
+        <div class="box">
+            <h3>Cột 3</h3>
+            <p>Nội dung cột thứ ba cân đối trên trang web.</p>
+        </div>
+    </section>
 
-    <!-- PHẦN 3: KẾT NỐI VỚI TÔI -->
-    <h2>Kết nối với tôi</h2>
-    <ul>
-        <li>
-            <a href="https://github.com/khai-nguyen06" target="_blank">GitHub Profile</a>
-        </li>
-        <li>
-            <a href="https://www.facebook.com/khai.nguyen06" target="_blank">Facebook Cá Nhân</a>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com/in/khai-nguyen06" target="_blank">LinkedIn</a>
-        </li>
-    </ul>
+    <!-- CHÂN TRANG -->
+    <footer>
+        <p>Bản quyền &copy; 2026 Khải Nguyễn</p>
+    </footer>
 
 </body>
 </html>
